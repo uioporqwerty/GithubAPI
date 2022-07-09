@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 Swift implementation of Github REST api v3. Library support swift 4.0. Work is in progress. Currently supported: Issues, Notification, Repositories, Search, and User API's.
                        DESC
 
-  s.homepage         = 'https://github.com/serhii-londar/GithubAPI'
+  s.homepage         = 'https://github.com/uioporqwerty/GithubAPI'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Serhii Londar' => 'serhii.londar@gmail.com' }
-  s.source           = { :git => 'https://github.com/serhii-londar/GithubAPI.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/uioporqwerty/GithubAPI.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/serhii_londar'
 
   s.ios.deployment_target = '9.0'
